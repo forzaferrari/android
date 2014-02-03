@@ -23,7 +23,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="forzaferrari/android" />
+  <project path="android" name="android" remote="forzaferrari" revision="android-4.4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
