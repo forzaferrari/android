@@ -14,7 +14,10 @@
   <remote  name="omnirom"
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
-
+           
+  <remote  name="forzaferrari"
+           fetch="https://github.com/forzaferrari" />
+  
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
